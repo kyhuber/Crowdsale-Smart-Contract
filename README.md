@@ -1,10 +1,10 @@
 # Crowdsale-Smart-Contract
 
-This app includes three smart contracts that work together to create a fungible, ERC-20 compliant token called KaseiCoin.
+This app includes three smart contracts that work together to create a fungible, ERC-20 compliant token called KaseiCoin (KSC).
 
-The first contract, called `KaseiCoin`, imports the ERC20, ERC20 Detailed, and ERC20 Mintable contracts from the OpenZeppelin Solidity library.
+The first contract, `KaseiCoin`, imports the ERC20, ERC20 Detailed, and ERC20 Mintable contracts from the OpenZeppelin Solidity library.
 
-The coins are minted in the `KaseiCoinCrowdsale` contract, where the rate, wallet, and token are defined. This contract also manages the crowdsale process, allowing users to send Ether to the contract and receive KSC tokens in return.
+The tokens are minted in the `KaseiCoinCrowdsale` contract, where the rate, wallet, and token are defined. This contract also manages the crowdsale process, allowing users to send Ether to the contract and receive KSC tokens in return.
 
 Lastly, the `KaseiCoinCrowdsaleDeployer` creates new instances of these contracts and sets the minter role.
 
