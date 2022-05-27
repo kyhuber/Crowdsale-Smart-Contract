@@ -1,8 +1,8 @@
-# Application
+# Crowdsale-Smart-Contract
 
-## Challenge: Martian Token Crowdsale
+This app includes three smart contracts that work together to create a fungible, ERC-20 compliant token called KaseiCoin.
 
-You will create a fungible token that is ERC-20 compliant and that will be minted by using a `Crowdsale` contract from the OpenZeppelin Solidity library.
+The first contract, called `KaseiCoin`, imports the ERC20, ERC20 Detailed, and ERC20 Mintable contracts from the OpenZeppelin Solidity library. The coins are minted in the `KaseiCoinCrowdsale` contract, where the rate, wallet, and token are defined. This contract also manages the crowdsale process, allowing users to send Ether to the contract and receive KSC tokens in return. Lastly, the `KaseiCoinCrowdsaleDeployer` creates new instances of these contracts and sets the minter role.
 
 The crowdsale contract that you create will manage the entire crowdsale process, allowing users to send ether to the contract and in return receive KAI, or KaseiCoin tokens. Your contract will mint the tokens automatically and distribute them to buyers in one transaction.
 
