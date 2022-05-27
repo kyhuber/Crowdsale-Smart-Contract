@@ -32,7 +32,7 @@ The Joint-Savings-Smart-Contract app was written by Kyle Huber in May 2022.
 
 ![Compile KaseiCrowdSale Contract](https://user-images.githubusercontent.com/69730757/170773539-0380aa58-027a-4738-8a8b-52559fdb08e9.png)
 
-### Contracts deployed to Remix
+### Contracts deployed in Remix
 
 ![Deployed Contracts](https://user-images.githubusercontent.com/69730757/170773844-b2c9ec15-9df3-48be-814e-b35d2e10be7d.png)
 
